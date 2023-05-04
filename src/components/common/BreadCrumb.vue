@@ -14,7 +14,7 @@
       <v-divider v-if="items.length > 1" color="white" class="my-4 ml-2 mr-4" vertical/>
       <v-breadcrumbs :items="items" class="pa-0">
         <template v-slot:divider>
-          <v-icon color="white" class="mx-n2">mdi-chevron-right</v-icon>
+          <v-icon color="white" class="mx-n2 test">mdi-chevron-right</v-icon>
         </template>
         <template v-slot:item="{ item }">
           <v-breadcrumbs-item
